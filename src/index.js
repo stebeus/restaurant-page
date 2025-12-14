@@ -4,4 +4,9 @@ import { about } from "./components/about";
 
 const content = document.querySelector("#content");
 
-content.innerHTML = home;
+function loadPage(page) {
+  content.innerHTML = "";
+  content.innerHTML = page;
+}
+
+loadPage();
