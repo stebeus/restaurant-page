@@ -5,6 +5,8 @@ import { about } from "./components/about";
 const btns = document.querySelectorAll("button");
 const content = document.querySelector("#content");
 
+const pages = { home, menu, about };
+
 function loadPage(page) {
   content.innerHTML = "";
   content.innerHTML = page;
