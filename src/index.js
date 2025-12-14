@@ -12,4 +12,11 @@ function loadPage(page) {
   content.innerHTML = page;
 }
 
+function handleBtn(btn) {
+  const page = pages[btn.value];
+  btn.addEventListener("click", () => loadPage(page));
+}
+
+btns.forEach(handleBtn);
+
 loadPage();
