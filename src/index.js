@@ -7,7 +7,7 @@ const content = document.querySelector("#content");
 
 const pages = { home, menu, about };
 
-function loadPage(page) {
+function loadPage(page = home) {
   content.innerHTML = "";
   content.innerHTML = page;
 }
