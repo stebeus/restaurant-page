@@ -1,6 +1,7 @@
 import { home } from "./components/home";
 import { menu } from "./components/menu";
 import { about } from "./components/about";
+import "./style.css";
 
 const btns = document.querySelectorAll("button");
 const content = document.querySelector("#content");
