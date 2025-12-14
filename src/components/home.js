@@ -1,4 +1,4 @@
-import imgPizza from "./assets/fabrizio-pullara.jpg";
+import imgPizza from "/src/assets/fabrizio-pullara.jpg";
 
 const home = /* html */ `
   <h1>Mario's Ristorante</h1>

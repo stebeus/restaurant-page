@@ -1,4 +1,4 @@
-import imgMario from "./assets/claudio-luiz-castro-mario.jpg";
+import imgMario from "/src/assets/claudio-luiz-castro-mario.jpg";
 
 const about = /* html */ `
   <h2>About</h2>

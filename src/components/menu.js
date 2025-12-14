@@ -1,5 +1,5 @@
-import imgMushroomPizza from "./assets/david-foodphototasty.jpg";
-import imgSpaghetti from "./assets/diego-ramirez.jpg";
+import imgMushroomPizza from "/src/assets/david-foodphototasty.jpg";
+import imgSpaghetti from "/src/assets/diego-ramirez.jpg";
 
 const menu = /* html */ `
   <h2>Menu</h2>
